@@ -1,0 +1,22 @@
+{
+  "name": "ionic-popover-keyboard-bug",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimal reproduction: IonPopover with keyboardClose={false} still closes the keyboard on mobile",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@ionic/react": "8.7.3",
+    "@ionic/react-router": "8.7.3",
+    "ionicons": "^7.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^5.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "vite": "^5.0.0"
+  }
+}
